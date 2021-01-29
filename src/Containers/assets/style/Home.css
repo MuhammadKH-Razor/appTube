@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(24, 24, 24);
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar{
+    background-color: #fff;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(68, 68, 68);
+    border-radius: 30px;
+}
+
+.navbar {
+    background-color: white;
+    height: 62px;
+    color: rgb(7, 7, 7);
+}
+
+.sec-1 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cards {
+    position: relative;
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+    background-color: darkorange;
+}
+
+.cards h2 {
+    font-size: 18px;
+}
+
+.cards p {
+    color: rgba(128, 128, 128, 0.932);
+    font-size: 15px;
+}
+
+.sec-2 {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+}
+
+.bt-ok {
+    background-color: rgba(231, 18, 18, 0.959);
+    color: white;
+}
+
+.navbar-left{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    top: -62px;
+    left: 0;
+    width: 22%;
+    height: 100%;
+    z-index: 5;
+    color: white;
+    display: block;
+    overflow: hidden;
+    background-color: rgb(46, 46, 46);
+}
+
+.title-menu {
+    position: relative;
+    background-color: rgba(231, 18, 18, 0.959);
+    color: white;
+    padding: 20px 20px 10px 35px;
+    display: flex;
+    text-align: center;
+}
+
+.title-menu i {
+    font-size: 30px;
+}
+
+.list-menu {
+   padding: 0 0 40px 0;
+   text-align: center;
+}
+
+.list-menu div {
+    position: relative;
+    top: 30px;
+    padding: 25px 45px;
+    text-align: center;
+    margin: 15px 0;
+    display: flex;
+}
+
+.list-menu div:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(20, 20, 20);
+}
+
+.list-menu i {
+    font-size: 21px;
+}
+
+.list-videosAll {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    overflow: scroll;
+    color: white;
+}
+
+.videoSelected div {
+    position: relative;
+    top: 20px;
+    left: 150px;
+    width: 50%;
+}
+
+.videoUtama {
+    position: relative;
+    height: 300px;
+    display: flex;
+    background-color: rgb(9, 255, 0);
+}
+
+.text-video {
+    padding: 0 0px 0 100px;
+    width: 90%;
+    background-color: cyan;
+}
+
+.videoPertama {
+    position: relative;
+    top: 25px;
+    height: 320px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 29, 29);
+}
+
+.frame {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    color: rgb(29, 29, 29);
+}
+
+.frame2 {
+    position: relative;
+    width: auto;
+    margin: auto;
+    height: auto;
+    transition: 0.5s;
+    color: rgb(29, 29, 29);
+}
+
+.frame3 {
+    position: relative;
+    width: auto;
+    margin: auto;
+    height: auto;
+    transition: 0.5s;
+    color: rgb(29, 29, 29);
+}
+
+.frame4 {
+    position: relative;
+    width: auto;
+    margin: auto;
+    height: auto;
+    transition: 0.5s;
+    color: rgb(29, 29, 29);
+}
+
+.frame2 img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.frame3 img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.frame2:hover {
+    transition: 0.5s;
+    transform: scale(1.07);
+}
+
+.frame3:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.videoPertama-video {
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    padding: 15px;
+}
+
+.deskripsi h4 {
+    font-size: 20px;
+}
+
+.deskripsi p {
+    font-size: 15px;
+    color: rgb(209, 209, 209);
+}
+
+.deskripsi {
+    height: 100%;
+    width: 45%;
+    text-align: justify;
+    padding: 20px 80px 0 10px;
+    background-color: transparent;
+}
+
+.img-channel {
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 999px;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    overflow: hidden;
+}
+
+.videoKedua {
+    position: relative;
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    color: rgb(29, 29, 29);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-videosAll h3 {
+    position: relative;
+    margin: 40px;
+    font-size: 22px;
+    color: rgb(29, 29, 29);
+}
+
+.dataSosmed {
+    width: auto;
+}
+
+.dataSosmed span {
+    color: rgba(255, 0, 0, 0.918);
+}
+
+.la-pen {
+    background-color: rgb(19, 19, 19);
+    border-radius: 90px;
+    font-size: 22px;
+    margin: 5px 10px 5px 0;
+    padding: 5px;
+    color: rgb(248, 248, 248);
+}
+
+.dataSosmed img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+}
+
+.dataSosmed .sp2 {
+    margin: 2px 8px;
+}
+
+.card-small {
+    position: relative;
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin: 13px 16PX;
+}
+
+.card-small2 {
+    position: relative;
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin: 13px 16PX;
+    transition: 0.5s;
+}
+
+.card-small3 {
+    position: relative;
+    width: 21%;
+    height: auto;
+    border-radius: 5px;
+    margin: 13px 20PX;
+    transition: 0.5s;
+}
+
+.card-small4 {
+    position: relative;
+    width: 45%;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 13px 18PX;
+    transition: 0.5s;
+    text-align: justify;
+    box-shadow: 0 0 5px rgba(214, 214, 214, 0.637);
+}
+
+.card-small2:hover {
+    transition: 0.5s;
+    transform: scale(0.98);
+}
+
+.small2 {
+    position: relative;
+    margin-top: 13px;
+    margin-bottom: 40px;
+}
+
+.spinners {
+    position: absolute;
+    width: 100%;
+    font-size: 22px;
+    color: rgb(29, 29, 29);
+    margin: 20% 50%;
+}
+
+.spinners p {
+    position: relative;
+    top: 20px;
+    left: -105px;
+}
+
+.form-select {
+    width: auto;
+    margin: 0px 10px;
+}
+
+.form-control {
+    width: auto;
+    margin: 0px 20px 0 10px;
+}
